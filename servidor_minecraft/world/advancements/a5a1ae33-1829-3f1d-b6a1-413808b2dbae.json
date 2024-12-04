@@ -37,6 +37,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2024-12-04 20:34:07 +0000",
       "minecraft:sunflower_plains": "2024-12-03 01:51:53 +0000",
       "minecraft:savanna_plateau": "2024-12-01 02:55:48 +0000",
       "minecraft:stony_peaks": "2024-12-01 03:03:24 +0000",
@@ -818,6 +819,7 @@
       "cooked_porkchop": "2024-12-01 03:23:28 +0000",
       "pumpkin_pie": "2024-12-03 01:44:45 +0000",
       "bread": "2024-12-01 01:37:43 +0000",
+      "golden_apple": "2024-12-04 20:46:37 +0000",
       "golden_carrot": "2024-12-01 02:39:16 +0000"
     },
     "done": false
@@ -3408,15 +3410,27 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/cobbled_deepslate_mine": {
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
     "criteria": {
-      "has_mine": "2024-12-03 02:24:52 +0000"
+      "has_potato": "2024-12-03 02:24:50 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/rabbit_stew": {
+  "minecraft:recipes/food/baked_potato": {
     "criteria": {
-      "has_any_ingredient": "2024-12-03 02:29:24 +0000"
+      "has_potato": "2024-12-03 02:24:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2024-12-03 02:24:50 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/cobbled_deepslate_mine": {
+    "criteria": {
+      "has_mine": "2024-12-03 02:24:52 +0000"
     },
     "done": true
   },
@@ -3474,12 +3488,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/spruce_fence": {
-    "criteria": {
-      "has_planks": "2024-12-03 02:34:55 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/iron_mine": {
     "criteria": {
       "has_mine": "2024-12-03 02:24:52 +0000"
@@ -3492,12 +3500,6 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/spruce_window": {
-    "criteria": {
-      "has_ingredient": "2024-12-03 02:34:55 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/cobblestone_mine": {
     "criteria": {
       "has_mine": "2024-12-03 02:24:52 +0000"
@@ -3507,12 +3509,6 @@
   "securitycraft:recipes/building_blocks/coal_mine": {
     "criteria": {
       "has_mine": "2024-12-03 02:24:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_button": {
-    "criteria": {
-      "has_planks": "2024-12-03 02:34:55 +0000"
     },
     "done": true
   },
@@ -3531,12 +3527,6 @@
   "securitycraft:recipes/tools/remote_access_mine": {
     "criteria": {
       "has_mine": "2024-12-03 02:24:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_pressure_plate": {
-    "criteria": {
-      "has_planks": "2024-12-03 02:34:55 +0000"
     },
     "done": true
   },
@@ -3576,12 +3566,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
-    "criteria": {
-      "has_potato": "2024-12-03 02:24:50 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/deepslate_redstone_mine": {
     "criteria": {
       "has_mine": "2024-12-03 02:24:52 +0000"
@@ -3594,33 +3578,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/baked_potato": {
-    "criteria": {
-      "has_potato": "2024-12-03 02:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/spruce_sign": {
-    "criteria": {
-      "has_planks": "2024-12-03 02:34:55 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/smoker_mine": {
     "criteria": {
       "has_mine": "2024-12-03 02:24:52 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:iceandfire/dragonbone_tool": {
-    "criteria": {
-      "tool": "2024-12-03 02:39:58 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/vegetable_noodles": {
-    "criteria": {
-      "has_any_ingredient": "2024-12-03 02:29:24 +0000"
     },
     "done": true
   },
@@ -3636,12 +3596,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/trade": {
-    "criteria": {
-      "traded": "2024-12-03 02:35:31 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/deepslate_lapis_mine": {
     "criteria": {
       "has_mine": "2024-12-03 02:24:52 +0000"
@@ -3651,12 +3605,6 @@
   "securitycraft:recipes/tools/wire_cutters": {
     "criteria": {
       "has_mine": "2024-12-03 02:24:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_slab": {
-    "criteria": {
-      "has_planks": "2024-12-03 02:34:55 +0000"
     },
     "done": true
   },
@@ -3702,21 +3650,93 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/baked_potato_from_smoking": {
-    "criteria": {
-      "has_potato": "2024-12-03 02:24:50 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/nether_gold_mine": {
     "criteria": {
       "has_mine": "2024-12-03 02:24:52 +0000"
     },
     "done": true
   },
+  "securitycraft:recipes/building_blocks/diamond_mine": {
+    "criteria": {
+      "has_mine": "2024-12-03 02:24:52 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/quartz_mine": {
+    "criteria": {
+      "has_mine": "2024-12-03 02:24:52 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/sand_mine": {
+    "criteria": {
+      "has_mine": "2024-12-03 02:24:52 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/deepslate_emerald_mine": {
+    "criteria": {
+      "has_mine": "2024-12-03 02:24:52 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-03 02:29:24 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-03 02:29:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2024-12-03 02:29:24 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-12-03 02:29:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2024-12-03 02:34:55 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/spruce_window": {
+    "criteria": {
+      "has_ingredient": "2024-12-03 02:34:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2024-12-03 02:34:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-12-03 02:34:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2024-12-03 02:34:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2024-12-03 02:34:55 +0000"
     },
     "done": true
   },
@@ -3738,39 +3758,33 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/diamond_mine": {
-    "criteria": {
-      "has_mine": "2024-12-03 02:24:52 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2024-12-03 02:34:55 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/quartz_mine": {
+  "minecraft:adventure/trade": {
     "criteria": {
-      "has_mine": "2024-12-03 02:24:52 +0000"
+      "traded": "2024-12-03 02:35:31 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/vegetable_soup": {
+  "iceandfire:iceandfire/dragonbone_tool": {
     "criteria": {
-      "has_any_ingredient": "2024-12-03 02:29:24 +0000"
+      "tool": "2024-12-03 02:39:58 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/sand_mine": {
+  "cataclysm:find_sunken_city": {
     "criteria": {
-      "has_mine": "2024-12-03 02:24:52 +0000"
+      "factory": "2024-12-04 20:34:07 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/deepslate_emerald_mine": {
+  "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
-      "has_mine": "2024-12-03 02:24:52 +0000"
+      "has_glow_ink_sac": "2024-12-04 20:40:40 +0000"
     },
     "done": true
   },
