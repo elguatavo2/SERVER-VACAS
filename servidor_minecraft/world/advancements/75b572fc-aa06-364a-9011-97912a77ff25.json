@@ -7632,15 +7632,15 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/defeat_gloomoth": {
-    "criteria": {
-      "killed": "2024-12-03 21:19:11 +0000"
-    },
-    "done": true
-  },
   "alexscaves:alexscaves/guano": {
     "criteria": {
       "guano": "2024-12-03 21:17:43 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_gloomoth": {
+    "criteria": {
+      "killed": "2024-12-03 21:19:11 +0000"
     },
     "done": true
   },
@@ -7659,6 +7659,31 @@
   "alexscaves:alexscaves/defeat_watcher": {
     "criteria": {
       "killed": "2024-12-03 21:42:21 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/desolate_dagger": {
+    "criteria": {
+      "desolate_dagger": "2024-12-04 03:32:27 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/dreadbow": {
+    "criteria": {
+      "dreadbow": "2024-12-04 03:32:27 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/shadow_silk": {
+    "criteria": {
+      "desolate_dagger": "2024-12-04 03:32:27 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/shadow_armor": {
+    "criteria": {
+      "helmet": "2024-12-04 03:32:27 +0000",
+      "tunic": "2024-12-04 03:32:27 +0000"
     },
     "done": true
   },
